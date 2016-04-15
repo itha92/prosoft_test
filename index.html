@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Prosoft Calendar Test</title>
+	<title>Calendar Test</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
+	<div class="container">
+			
+		<div class="jumbotron">
+			<h1>Hello World!</h1>
+		</div>
+		<div class="row">
+			<form>
+				<div class="col-md-4">
+					<label>Select a date: </label>
+					<input class="form-control sel_date" type="date"></input>
+					<p></p>
+					<label>Number of days: </label>
+					<input class="days" type="number" min="1"></input>
+					<p></p>
+					<label>Country code:</label>
+					<input class="code" list="codes">
+					<datalist id="codes">
+					</datalist>
+					<ul class="dropdown-menu">
 
+					</ul>
+				</div>
+					<!--input class="form-control"></input-->
+				<div class="col-md-4">
+					<h2 class="holi_days" style="display: none">Holidays </h2>
+					<div class="list-group">
+					  	
+					  </div>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12">
+					<p></p>
+					<p>
+						<button type="button" class="btn btn-lg btn-success">Go!</button>
+					</p>
+				</div>
+			</div>	
+			</form>
+
+	</div>
+	<div class="container">
+		<div class="col-md-6" id="calendar">
+			
+		</div>
+	</div>
 </body>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/codes.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </html>
