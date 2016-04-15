@@ -1,0 +1,12 @@
+List of not finished requirements:
+--	Weekends in yellow
+--  Holidays in orange
+
+Bugs:
+--	When specified date is greater than 2 year, years start adding one for each month
+--	if starting date is close to the end of the month and the quantity of month displayed have less days that the amount required it won't color all the necesary days.
+
+Things I would do
+--	Color the rest of the days according to how it supposed to be
+--	Fix the bugs and do more testing
+--	Modify layout to make it look pretier.
